@@ -1,0 +1,111 @@
+{
+  "main": {
+    "name": "Jeremy",
+    "occupation": "Junior Web Developer",
+    "image": "profilepic.jpg",
+    "bio": "I'm originally from Syracuse, N.Y., and I come from a music and art background. When I'm not coding or creating something beautiful, I'm spending time wit my family and making life worth every second.",
+    "contactmessage": "contact info:",
+    "email": "remyguts@gmail.com",
+    "phone": "315-706-4293",
+    "address": {
+      "city": "Seattle",
+      "state": "WA"
+    },
+    "resumedownload": "./images/Curriculum Vitae.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "www.linkedin.com/in/jeremy-guts",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/remyguts",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/gutsremy",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "gmail",
+        "url": "remyguts@gmail.com",
+        "className": "fa fa-gmail"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "University of Washington",
+        "certification": "Full Stack Flex",
+        "graduated": "May 2020"
+      }
+    ],
+
+    "skills": [
+      {
+        "name": "HTML5"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "Javascript"
+      },
+      {
+        "name": "jQuery"
+      },
+      {
+        "name": "Bootstrap"
+      },
+      {
+        "name": "Materialize"
+      },
+      {
+        "name": "ReactJs"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Profile Developer",
+        "category": "Create profile in PDF form",
+        "image": "profilegen.png",
+        "url": "https://remyguts.github.io/Developer-Profile-Generator/"
+      },
+      {
+        "title": "Burger Nation",
+        "category": "Create and save custom burger orders",
+        "image": "burgernation.png",
+        "url": "https://burgernation.herokuapp.com/"
+      },
+      {
+        "title": "Virus Wars",
+        "category": "Platform game about destroying the Corona Virus",
+        "image": "viruswars.png",
+        "url": "https://project2-remy-owen-ben.herokuapp.com/"
+      },
+      {
+        "title": "Stars Wars",
+        "category": "The ultimate Star Wars app",
+        "image": "starswars.png",
+        "url": "https://secret-fjord-16976.herokuapp.com/?id=5e8280dfce6457001745cdc3"
+      },
+      {
+        "title": "Employee Directory",
+        "category": "View an entire employee directory at once so that you have quick access to their information.",
+        "image": "employeedirectory.png",
+        "url": "https://remyguts.github.io/Employee-Directory/"
+      },
+      {
+        "title": "Budget Tracker",
+        "category": "An application with offline access and functionality",
+        "image": "budgettracker.png",
+        "url": "https://lychee-shortcake-56164.herokuapp.com/"
+      }
+    ]
+  }
+}

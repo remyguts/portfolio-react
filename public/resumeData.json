@@ -3,15 +3,14 @@
     "name": "Jeremy",
     "occupation": "Junior Web Developer",
     "image": "profilepic.jpg",
-    "bio": "I was born in 1978, I grew up in a small town in Central New York. I've been creating since I
-    was 15 years old.
-    My name is Remy Guts and I'm a junior developer and multi-platform artist. From painting, to
+    "bio": "I was born in 1978,I grew up in a small town in Central New York. I've been creating since I
+    was 15 years old. My name is Remy Guts and I'm a junior developer and multi-platform artist. From painting, to
     design, and music, I have imagined and created in many formats and arenas. I work in graphic
     design, paint,
     illustration, music, and concept.
     My interests include rock n roll, coffee, conversation, and nature.
-Life should be viewed from a lens that doesn't exist,"
-    "contactmessage": "contact info:",
+Life should be viewed from a lens that doesn't exist",
+    "contact message:" "contact info:"
     "email": "remyguts@gmail.com",
     "phone": "315-706-4293",
     "address": {

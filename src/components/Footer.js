@@ -1,39 +1,21 @@
-import React, { Component } from "react";
-
-class Footer extends Component {
-  render() {
-    if (this.props.data) {
-      var name = this.props.data.name;
-      var networks = this.props.data.social.map(function (network) {
-        return (
-          <li key={network.name}>
-            <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.className}></i>
-            </a>
-          </li>
-        );
-      });
-    }
-
-    return (
-      <footer>
-        <div className="row">
-          <div className="twelve columns">
-            <ul className="social-links">{networks}</ul>
-
-            <ul className="copyright">
-              <li>&copy; Copyright 2020 {name}</li>
-            </ul>
-          </div>
-          <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
-              <i className="icon-up-open"></i>
-            </a>
-          </div>
-        </div>
-      </footer>
-    );
-  }
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+function Footer() {
+  return (
+    <footer className="mt-5">
+      <Container fluid={true}>
+        <Row className="border-top justify-content-between p-3">
+          <Col className="p-0" md={3} sm={12}>
+            REMY GUTS
+          </Col>
+          <Col className="p-0 d-flex justify-content-end" md={3}>
+            This site was made by Jeremy Guts
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  );
 }
-
 export default Footer;

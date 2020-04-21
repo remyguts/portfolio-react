@@ -1,55 +1,96 @@
-import React, { Component } from "react";
-import ReactGA from "react-ga";
-import $ from "jquery";
+import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Portfolio from "./Components/Portfolio";
-// import Contact from './Components/Contact';
 
-class App extends Component {
+import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      foo: "bar",
-      resumeData: {},
-    };
-
-    ReactGA.initialize("UA-110570651-1");
-    ReactGA.pageview(window.location.pathname);
-  }
-
-  getResumeData() {
-    $.ajax({
-      url: "/resumeData.json",
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function (xhr, status, err) {
-        console.log(err);
-        alert(err);
+      title: "Jeremy Guts",
+      headerLinks: [
+        { title: "Home", path: "/" },
+        { title: "About", path: "/about" },
+        { title: "Contact", path: "/contact" },
+      ],
+      home: {
+        title: "Jeremy Guts",
+        subTitle: ' "Life should be viewed from a lens that doesn\'t exist"',
+        text: "Checkout my projects below",
       },
-    });
-  }
-
-  componentDidMount() {
-    this.getResumeData();
+      about: {
+        title: "About Me",
+      },
+      contact: {
+        title: "Let's Talk",
+      },
+    };
   }
 
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        {/* <Contact data={this.state.resumeData.contact}/> */}
-        <Footer data={this.state.resumeData.main} />
-      </div>
+      <Router>
+        <Container className="p-0" fluid={true}>
+          <Navbar className="border-bottom" bg="transparent" expand="lg">
+            <Navbar.Brand>Garrett Love</Navbar.Brand>
+
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle">
+              <Nav className="ml-auto">
+                <Link className="nav-link" to="/">
+                  Home
+                </Link>
+                <Link className="nav-link" to="/about">
+                  About
+                </Link>
+                <Link className="nav-link" to="/contact">
+                  Contact
+                </Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+          <Route
+            path="/"
+            exact
+            render={() => (
+              <HomePage
+                title={this.state.home.title}
+                subTitle={this.state.home.subTitle}
+                text={this.state.home.text}
+              />
+            )}
+          />
+          <Footer />
+
+          <Route
+            path="/"
+            exact
+            render={() => (
+              <HomePage
+                title={this.state.home.title}
+                subTitle={this.state.home.subTitle}
+                text={this.state.home.text}
+              />
+            )}
+          />
+          <Route
+            path="/about"
+            render={() => <AboutPage title={this.state.about.title} />}
+          />
+          <Route
+            path="/contact"
+            render={() => <ContactPage title={this.state.contact.title} />}
+          />
+
+          <Footer />
+        </Container>
+      </Router>
     );
   }
 }

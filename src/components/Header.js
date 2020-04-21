@@ -47,7 +47,6 @@ class Header extends Component {
                 Portfolio
               </a>
             </li>
-            {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
           </ul>
         </nav>
 

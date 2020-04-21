@@ -18,7 +18,10 @@
     "react-ga": "^2.7.0",
     "react-router": "^2.0.1",
     "react-scripts": "3.4.1",
+    "rollup": "^2.6.1",
     "typescript": "^3.8.3",
+    "webfont": "^9.0.0",
+    "webkit": "0.0.0",
     "webpack": "^4.42.1",
     "webpack-dev-server": "^3.10.3",
     "yarn": "^1.22.4"

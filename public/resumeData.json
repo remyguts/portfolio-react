@@ -4,11 +4,9 @@
     "occupation": "Junior Web Developer",
     "image": "profilepic.jpg",
     "bio": "I was born in 1978,I grew up in a small town in Central New York. I've been creating since I
-    was 15 years old. My name is Remy Guts and I'm a junior developer and multi-platform artist. From painting, to
-    design, and music, I have imagined and created in many formats and arenas. I work in graphic
-    design, paint,
-    illustration, music, and concept.
-    My interests include rock n roll, coffee, conversation, and nature.
+    was 15 years old. My name is Remy Guts  I'm a junior developer  multi-platform artist. From painting, to
+   design,  music, I have imagined  created in many formats  arenas. I work in graphic
+   design, paint, illustration, music,  concept. My interests include rock n roll, coffee, conversation, as well as nature.
 Life should be viewed from a lens that doesn't exist",
     "contact message:" "contact info:"
     "email": "remyguts@gmail.com",
@@ -84,7 +82,7 @@ Life should be viewed from a lens that doesn't exist",
       },
       {
         "title": "Burger Nation",
-        "category": "Create and save custom burger orders",
+        "category": "Create "and" save custom burger orders",
         "image": "burgernation.png",
         "url": "https://burgernation.herokuapp.com/"
       },
@@ -108,10 +106,10 @@ Life should be viewed from a lens that doesn't exist",
       },
       {
         "title": "Budget Tracker",
-        "category": "An application with offline access and functionality",
+        "category": "An application with offline access "and" functionality",
         "image": "budgettracker.png",
         "url": "https://lychee-shortcake-56164.herokuapp.com/"
       }
     ]
   }
-}
+

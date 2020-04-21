@@ -1,13 +1,7 @@
 import React from "react";
 
-
-
 function ContactPage(props) {
+  return <p>dorkus</p>;
+}
 
-    return (
-        
-        );
-
-    }
-    
-    export default ContactPage;
+export default ContactPage;

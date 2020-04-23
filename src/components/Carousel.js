@@ -2,6 +2,9 @@ import React from "react";
 
 import Card from "../components/Card";
 
+import WorkDayScheduler from "../assets/images/WorkDayScheduler.png";
+import NoteTaker from "../assets/images/NoteTaker.png";
+import VirusWars from "../assets/images/VirusWars.png";
 import BudgetTracker from "../assets/images/BudgetTracker.png";
 import EmployeeDirectory from "../assets/images/EmployeeDirectory.png";
 import ProfileGenerator from "../assets/images/ProfileGenerator.png";
@@ -36,6 +39,30 @@ class Carousel extends React.Component {
           subTitle: "Access any employee",
           imgSrc: EmployeeDirectory,
           link: "https://remyguts.github.io/Employee-Directory/",
+          selected: false,
+        },
+        {
+          id: 3,
+          title: "Virus Wars",
+          subTitle: "A game about saving Seattle from the Corona Virus",
+          imgSrc: VirusWars,
+          link: "https://project-2-remy-owen-ben.herokuapp.com/",
+          selected: false,
+        },
+        {
+          id: 4,
+          title: "Note Taker",
+          subTitle: "Take notes form this handy app",
+          imgSrc: NoteTaker,
+          link: "https://notetakerremy.herokuapp.com/",
+          selected: false,
+        },
+        {
+          id: 5,
+          title: "Work Day Scheduler",
+          subTitle: "Keep track of tasks throughout your work day",
+          imgSrc: WorkDayScheduler,
+          link: "https://remyguts.github.io/DayPlanner/",
           selected: false,
         },
       ],

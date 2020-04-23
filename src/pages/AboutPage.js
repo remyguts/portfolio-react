@@ -19,8 +19,8 @@ function AboutPage(props) {
           nature.
         </p>
         <p>
-          My latest project, Dev Grub, is a cookbook for developers. You can
-          check it out <a href={Pdf}>Download Pdf here</a>
+          More about my qualifications can be found on my resume. You can check
+          it out here <a href={Pdf}>Download Pdf here</a>
         </p>
       </Content>
     </div>

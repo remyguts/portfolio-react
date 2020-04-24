@@ -5,7 +5,7 @@
 
 
 
-A portfolio of my projects built with React, Redux, JavaScript, and CSS.
+A portfolio of my projects built with React, JavaScript, and CSS.
 
 
 

@@ -3,7 +3,7 @@ import React from "react";
 import Card from "../components/Card";
 
 import WorkDayScheduler from "../assets/images/WorkDayScheduler.png";
-import NoteTaker from "../assets/images/NoteTaker.png";
+import Biy from "../assets/images/Biy.png";
 import VirusWars from "../assets/images/VirusWars.png";
 import BudgetTracker from "../assets/images/BudgetTracker.png";
 import EmployeeDirectory from "../assets/images/EmployeeDirectory.png";
@@ -20,7 +20,7 @@ class Carousel extends React.Component {
           id: 0,
           title: "Build-It-Yourself",
           subTitle: "Connecting Artists and Promoters",
-          imgSrc: NoteTaker,
+          imgSrc: Biy,
           link: "https://book-it-yourself.herokuapp.com/login",
           selected: false,
         },

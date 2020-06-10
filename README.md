@@ -37,7 +37,7 @@ To Start Server:
 
 To Visit App:
 
-https://remyguts.github.io/
+https://remyguts.github.io/portfolio-react/
 
 ## Reflection
 

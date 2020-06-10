@@ -46,14 +46,4 @@ https://remyguts.github.io/portfolio-react/
   - Why was this project challenging and therefore a really good learning experience?
   This project was challenging because I needed to rethink my whole portfolio design to implement the new technology I was introduced to. I also started it with what I though was a realistic approach to a bigger scale project, but slimed it down for more functionality and clearer MVP.
   - What tools did you use to implement this project?
-      - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
-
-#### Example:  
-
-This was a 3 week long project built during my third module at Turing School of Software and Design.   
-
-Originally I wanted to build an application that allowed users to pull data from the Twitter API based on what they were interested in, such as 'most tagged users'.   
-
-One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
-
 The technologies implemented in this project are React, React-Router 4.0,JS, JSX, and CSS. PNG images were sized and formatted using Photoshop. I chose to use the `create-react-app` boilerplate for initial setup and a `webpack.config.js` file.

@@ -18,10 +18,10 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: "Budget Tracker",
-          subTitle: "Keep tabs on your spending",
-          imgSrc: BudgetTracker,
-          link: "https://budget-tracker-remy.herokuapp.com/",
+          title: "Build-It-Yourself",
+          subTitle: "Connecting Artists and Promoters",
+          imgSrc: NoteTaker,
+          link: "https://book-it-yourself.herokuapp.com/login",
           selected: false,
         },
         {
@@ -51,10 +51,10 @@ class Carousel extends React.Component {
         },
         {
           id: 4,
-          title: "Note Taker",
-          subTitle: "Take notes form this handy app",
-          imgSrc: NoteTaker,
-          link: "https://notetakerremy.herokuapp.com/",
+          title: "Budget Tracker",
+          subTitle: "Keep tabs on your spending",
+          imgSrc: BudgetTracker,
+          link: "https://budget-tracker-remy.herokuapp.com/",
           selected: false,
         },
         {
